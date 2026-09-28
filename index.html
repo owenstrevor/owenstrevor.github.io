@@ -35,7 +35,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&amp;family=IBM+Plex+Mono:wght@400&amp;family=Inter:wght@400;500&amp;display=swap" rel="stylesheet" />
-<link rel="stylesheet" href="styles.css?v=20260928-hero" />
+<link rel="stylesheet" href="styles.css?v=20260928-intro" />
 <script type="application/ld+json">{
   "@context": "https://schema.org",
   "@graph": [
@@ -117,24 +117,18 @@
 <button aria-controls="cmd" aria-haspopup="dialog" class="cmd-btn" hidden="" id="cmdOpen" type="button">Search <kbd>/</kbd></button>
 </header>
 <main id="top" tabindex="-1">
-<section class="hero">
-<p class="eyebrow">San Francisco · Operator · Investor · Author</p>
-<h1>Trevor Owens builds systems, places, and communities to help founders create the next billion-dollar companies.</h1>
-<dl class="roles">
-<div class="role-now"><dt>Now</dt><dd>VP of Strategy at <a href="https://relief.app/" rel="noopener" target="_blank">Relief</a></dd></div>
-<div><dt>Previously</dt><dd><ul>
-<li>Head of Cafe Expansion at <a href="#work-cafe">Corgi</a></li>
-<li>Managing Partner of <a href="#work-fund">Bitcoin Frontier Fund</a></li>
-<li>Founder of <a href="#work-lsm">Lean Startup Machine</a></li>
-</ul></dd></div>
-<div><dt>Author</dt><dd>Co-author of <a href="#book"><em>The Lean Enterprise</em></a></dd></div>
-</dl>
-<div class="hero-actions">
-<a class="btn primary" data-command="Open Relief" data-event="portfolio_click" data-label="Relief" href="https://relief.app/" rel="noopener" target="_blank">Visit Relief</a>
-<a class="btn ghost" href="#media">Watch talks</a>
-<a class="btn ghost" href="https://x.com/TO" rel="noopener" target="_blank">@TO</a>
+<section aria-labelledby="intro-heading" class="hero">
+<p class="eyebrow hero-identity">Trevor Owens <span>· San Francisco</span></p>
+<h1 id="intro-heading">Helping founders<br />build what’s next.</h1>
+<div class="hero-summary">
+<p class="hero-bio">Operator, investor, and author. I build the systems, places, and communities that help founders turn ambitious ideas into companies.</p>
+<div class="hero-now">
+<p class="eyebrow">Currently</p>
+<p class="hero-role">VP of Strategy at Relief</p>
+<a href="#now">About my current work <span aria-hidden="true">→</span></a>
 </div>
-<dl class="stats">
+</div>
+<dl aria-label="Career at a glance" class="stats">
 <div>
 <dt>Companies backed</dt>
 <dd>80+</dd>
@@ -148,21 +142,30 @@
 <dd>150+</dd>
 </div>
 <div>
-<dt>Startup cafes opened for Corgi</dt>
-<dd>SF · NYC · ATL · LDN</dd>
+<dt>Cities with Corgi cafes</dt>
+<dd>4</dd>
 </div>
 </dl>
 </section>
-<section aria-label="Praise for The Lean Enterprise" class="quotes">
-<p class="eyebrow quotes-label">What people said about <a href="#book"><em>The Lean Enterprise</em></a></p>
-<figure>
-<blockquote>“Owens shows us how corporations can leverage lean startup methods to drive innovation.”</blockquote>
-<figcaption>Tom Eisenmann, Harvard Business School</figcaption>
-</figure>
-<figure>
-<blockquote>“Owens has a framework for empowering the greatest entrepreneurial talent to thrive inside an organization.”</blockquote>
-<figcaption>Brad Smith, then-CEO of Intuit</figcaption>
-</figure>
+<section aria-labelledby="explore-heading" class="explore">
+<div class="explore-heading">
+<h2 id="explore-heading">Take a closer look.</h2>
+<a class="explore-contact" href="#contact">Get in touch <span aria-hidden="true">→</span></a>
+</div>
+<div class="explore-links">
+<a class="explore-link explore-work" href="#work" aria-labelledby="explore-work-title" aria-describedby="explore-work-copy">
+<h3 id="explore-work-title">Explore my work <span aria-hidden="true">→</span></h3>
+<p id="explore-work-copy">The companies, investments, and communities I’ve helped build.</p>
+</a>
+<a class="explore-link" href="#media" aria-labelledby="explore-talks-title" aria-describedby="explore-talks-copy">
+<h3 id="explore-talks-title">Watch talks <span aria-hidden="true">→</span></h3>
+<p id="explore-talks-copy">Conversations on startups, Bitcoin, and building from zero.</p>
+</a>
+<a class="explore-link" href="#book" aria-labelledby="explore-book-title" aria-describedby="explore-book-copy">
+<h3 id="explore-book-title">Discover the book <span aria-hidden="true">→</span></h3>
+<p id="explore-book-copy"><em>The Lean Enterprise.</em> How corporations can innovate like startups.</p>
+</a>
+</div>
 </section>
 <section class="chapter" id="now">
 <div class="chapter-head">
@@ -185,7 +188,7 @@
 <span class="loc-meta">In debt savings identified</span>
 </a>
 </div>
-<p class="fine">Role: VP of Strategy. <a href="https://relief.app/" rel="noopener" target="_blank">relief.app</a></p>
+<p class="fine">Role: VP of Strategy. <a data-command="Open Relief" data-event="portfolio_click" data-label="Relief" href="https://relief.app/" rel="noopener" target="_blank">Visit relief.app <span aria-hidden="true">↗</span></a></p>
 </section>
 <section class="chapter" id="work">
 <div class="chapter-head">
@@ -283,6 +286,17 @@
 </div>
 <p class="related"><a href="#video-lPxAM7COrhU">Watch the Lean Enterprise keynote</a></p></div>
 </div>
+<section aria-labelledby="book-praise-heading" class="quotes">
+<h3 class="eyebrow quotes-label" id="book-praise-heading">Praise for <em>The Lean Enterprise</em></h3>
+<figure>
+<blockquote>“Owens shows us how corporations can leverage lean startup methods to drive innovation.”</blockquote>
+<figcaption>Tom Eisenmann, Harvard Business School</figcaption>
+</figure>
+<figure>
+<blockquote>“Owens has a framework for empowering the greatest entrepreneurial talent to thrive inside an organization.”</blockquote>
+<figcaption>Brad Smith, then-CEO of Intuit</figcaption>
+</figure>
+</section>
 </section>
 <section class="chapter" id="media">
 <div class="chapter-head">
